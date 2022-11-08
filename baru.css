@@ -1,0 +1,61 @@
+/*Navigation Bar*/
+#nav_bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F17F7F;
+}
+
+.nav_data{
+  float: right;
+  font-family: 'Patua One', cursive;
+}
+
+.nav_data a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav_data:hover{
+  background-color: gray;
+}
+/*END of Navigation Bar*/
+
+body{
+  background: #F2AFAF
+}
+
+form{
+  text-align: center;
+  position: relative;
+  top: 20px;
+  bottom: 20px;
+
+}
+.form-group{
+  margin-bottom:10px
+}
+.form-control{
+  display:inline-block;font-size:13px
+}
+.form-control{
+  width:50%;
+  min-height:25px;
+  padding:5px 10px;
+  line-height:1.6;
+  background-color:#fff;
+  border:1px solid #ddd;
+  border-radius:4px;
+  outline:0
+}   
+.form-control:focus{
+  border-color:#6db3fd;
+  box-shadow:3px 3px 0 #6db3fd,-3px -3px 0 #6db3fd,-3px 3px 0 #6db3fd,3px -3px 0 #6db3fd
+}
+.mainWrapper{
+  margin: 25px;
+}

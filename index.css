@@ -1,0 +1,144 @@
+body {
+  margin: 0px;
+  background-color: #F2AFAF;
+}
+
+
+/**Navigation Bar**/
+#nav_bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F17F7F;
+}
+
+.nav_data{
+  float: right;
+  font-family: 'Patua One', cursive;
+}
+
+.nav_data a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav_data:hover{
+  background-color: gray;
+}
+/**END of Navigation Bar**/
+
+/**HEADER CSS**/
+#head{
+  width: 100%;
+}
+/**END HEADER CSS**/
+
+/**SIDE IMAGES LEFT**/
+h3{
+  text-align: center;
+}
+div.gallery {
+  border: 1px solid black;
+}
+
+div.gallery:hover {
+  border: 1px solid white;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0px 15px;
+  float: left;
+  width: 24.99999%;
+  display: block;
+  margin-left: 30px;
+}
+
+.responsive2 {
+  padding: 0px 15px;
+  float: right;
+  width: 24.99999%;
+  display: block;
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**WORD IN SIDE IMAGES**/
+.container_text{
+  font-family: 'Staatliches', cursive;
+}
+
+/**FORM**/
+h1{
+  padding-top: 50px;
+}
+
+.form{
+  text-align: center;
+  position: relative;
+  top: 20px;
+
+}
+
+#demo{
+  font-size: larger;
+  line-height: 1.8;
+}
+
+div.outbox{
+  text-align: center;
+  width: 75%;
+  padding: auto;
+  margin: auto;
+  background-color: #dbdee0;
+}
+
+p{
+  font-size: large;
+  margin-top: 20px;
+}
+
+input[type=text]{
+  padding: 6px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 17px;
+  border-radius: 10px;
+  outline: none;
+}
